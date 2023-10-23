@@ -1,0 +1,153 @@
+* {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  /* background-color: rgb(235, 204, 228); */
+}
+
+/* univeral class*/
+
+header {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  padding-bottom: 20px;
+  background-color: rgba(15, 1, 27, 0.418);
+  color: blueviolet;
+  height: 150px;
+  /* background-color: rgb(167, 167, 207);
+  width: 100%; */
+}
+
+.container {
+  width: 100%;
+  max-width: 1120px;
+  margin: 10px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+#nav-log {
+  width: 25%;
+  height: 120px;
+  margin-left: 10px;
+}
+
+.nav-list {
+  width: 150%;
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  justify-content: space-around;
+  align-items: flex-end;
+
+  margin-left: 20px;
+  text-decoration: none;
+}
+/* #div-list{
+  width: 100%;
+  display: flex;
+  ;
+} */
+
+#div-list ul {
+  display: flex;
+  text-decoration: none;
+}
+.nav-list li a {
+  text-decoration: none;
+}
+.navbar {
+  width: 100%;
+  min-height: 50px;
+  background-color: rgb(216, 74, 74);
+  text-decoration: none;
+}
+#ul-navbar {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 10px;
+  text-decoration: none;
+  list-style: none;
+}
+.section-main {
+  padding-left: 20px;
+  padding-right: 20px;
+  flex-direction: row;
+  background-color: rgba(3, 0, 0, 0.5);
+  padding-right: 20px;
+  height: 800px;
+  padding-top: 30px;
+}
+.column1 {
+  width: 50%;
+  height: 700px;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  padding-right: 20px;
+  list-style: none;
+  border-radius: 20px;
+  display: block;
+  display: flex;
+  justify-content: center;
+}
+.column1 p {
+  padding-top: 20px;
+}
+
+.column1 .insidebox {
+  width: 70%;
+
+  border-radius: 10px;
+  padding-top: 20px;
+  text-align: justify;
+}
+
+.column2 {
+  width: 50%;
+  float: right;
+  text-align: center;
+  border: 2%;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 20px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.column2 .rirhtside {
+  width: 80%;
+  height: 100%;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+input {
+  padding-bottom: 5px;
+  width: 200px;
+  border-radius: 5px;
+}
+form {
+  width: 500px;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+}
+form h2 {
+  margin: 20px 0;
+}
+footer {
+  clear: both;
+  margin-bottom: 10;
+}
+input[type="submit"] {
+  background: #0c75b3;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
